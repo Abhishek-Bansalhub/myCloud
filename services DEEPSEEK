@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Legal Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Legal</span> Services</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="current"><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="main">
+        <div class="container">
+            <article id="main-col">
+                <h1 class="page-title">Our Services</h1>
+                <ul id="services">
+                    <li>
+                        <h3>Legal Consultation</h3>
+                        <p>We provide expert legal advice to help you understand your rights and obligations.</p>
+                        <p>Pricing: $100 - $300 per hour</p>
+                    </li>
+                    <li>
+                        <h3>Document Preparation</h3>
+                        <p>We assist in drafting and reviewing legal documents such as contracts, wills, and agreements.</p>
+                        <p>Pricing: $200 - $500 per document</p>
+                    </li>
+                    <li>
+                        <h3>Legal Representation</h3>
+                        <p>Our attorneys represent you in court and legal proceedings to ensure the best possible outcome.</p>
+                        <p>Pricing: $500 - $2000 per case</p>
+                    </li>
+                </ul>
+            </article>
+
+            <aside id="sidebar">
+                <div class="dark">
+                    <h3>Request a Quote</h3>
+                    <form class="quote">
+                        <div>
+                            <label>Name</label><br>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div>
+                            <label>Email</label><br>
+                            <input type="email" placeholder="Email Address">
+                        </div>
+                        <div>
+                            <label>Message</label><br>
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <button class="button_1" type="submit">Send</button>
+                    </form>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <p>Legal Services Startup, Copyright &copy; 2023</p>
+    </footer>
+</body>
+</html>
