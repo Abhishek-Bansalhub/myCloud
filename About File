@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Legal Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Legal</span> Services</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="current"><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="main">
+        <div class="container">
+            <article id="main-col">
+                <h1 class="page-title">About Us</h1>
+                <p>
+                    We are a team of experienced attorneys dedicated to providing high-quality legal services to individuals and businesses. Our mission is to make legal services accessible, affordable, and efficient for everyone.
+                </p>
+                <p>
+                    With years of experience in various fields of law, we are committed to delivering personalized solutions tailored to your unique needs. Whether you need legal advice, document preparation, or representation in court, we are here to help.
+                </p>
+            </article>
+
+            <aside id="sidebar">
+                <div class="dark">
+                    <h3>What We Do</h3>
+                    <p>
+                        We specialize in corporate law, family law, real estate law, and intellectual property law. Our team is equipped to handle complex legal matters with precision and care.
+                    </p>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <p>Legal Services Startup, Copyright &copy; 2023</p>
+    </footer>
+</body>
+</html>
